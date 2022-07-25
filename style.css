@@ -1,0 +1,133 @@
+@font-face {
+     font-family:"serenity";
+     src:url("af/b3f0a0/00000000000000007735b44c/30/l") format("woff2"),url("af/b3f0a0/00000000000000007735b44c/30/d") format("woff"),url("af/b3f0a0/00000000000000007735b44c/30/a") format("opentype");
+     font-display:auto;font-style:normal;font-weight:300;font-stretch:normal;
+}
+
+@font-face {
+     font-family:"serenity";
+     src:url("af/faecf4/00000000000000007735b458/30/l") format("woff2"),url("af/faecf4/00000000000000007735b458/30/d") format("woff"),url("af/faecf4/00000000000000007735b458/30/a") format("opentype");
+     font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+     font-family:"serenity";
+     src:url("af/7b12e5/00000000000000007735b464/30/l") format("woff2"),url("af/7b12e5/00000000000000007735b464/30/d") format("woff"),url("af/7b12e5/00000000000000007735b464/30/a") format("opentype");
+     font-display:auto;font-style:normal;font-weight:500;font-stretch:normal;
+}
+body{
+     font-family: Serenity;
+     margin: 0;
+     padding: 0;
+     color: #000;
+     line-height: 1;
+}
+header{
+     background: url("assets/images/01_Winca_Steinengraben_18_22_Conception.png");
+     background-position: center right;
+     background-repeat: no-repeat;
+     background-size: 65% auto;
+     min-height: 100vh;
+}
+.container-large{
+     max-width: 1400px;
+     margin: 0 250px;
+}
+.heading{
+     padding: 10px;
+}
+.heading-div1{
+     margin-bottom: 20px;
+}
+.page-title{
+     font-size: 90px;
+     line-height: 1;
+     margin:180px 0 0 0;
+
+}
+.sub-title{
+     font-size: 32px;
+     font-weight: 500;
+     line-height: 1;
+     margin: 0;
+}
+#section-a{
+     padding: 150px 0 90px 0;
+}
+.section-a-container{
+     padding: 10px;
+}
+.section-a-div1{
+     padding-bottom: 20px;
+}
+.section-a-Title{
+     font-size: 50px;
+     margin: 0 0 20px 0;
+}
+.section-a-paragraph{
+     font-size: 30px;
+     font-weight: 500;
+     width: 80%;
+     margin: 0 0 14px 0;
+     line-height: 1.1;
+}
+.section-b-img img{
+     width: 80%;
+}
+.carousel {
+     width: 1180px;
+     height: 800px;
+}
+.carousel-control-prev{
+     left: -11%;
+}
+.carousel-control-prev-icon{
+     background: url("assets/chevron-left-svgrepo-com.svg");
+     background-repeat: no-repeat;
+     background-size: 40px;
+}
+.carousel-control-next-icon{
+     background: url("assets/chevron-right-svgrepo-com.svg");
+     background-repeat: no-repeat;
+     background-size: 40px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+     filter: invert(66%) sepia(23%) saturate(498%) hue-rotate(70deg) brightness(90%) contrast(94%);
+     width: 4rem;
+     height: 4rem;
+}
+#section-c{
+     padding:125px 0 90px 0;
+}
+.section-c-title{
+     margin-bottom: 20px;
+}
+.section-c-h2{
+     font-size: 50px;
+     font-weight: 200;
+     padding-bottom: 20px;
+     margin-bottom:0;
+}
+.section-c-h2 b{
+     font-weight: 700;
+}
+.section-c-p{
+     width: 80%;
+     font-size: 30px;
+     margin: 0 0 15px;
+}
+.section-d-div1{
+     width: 50%;
+}
+.section-d-div2{
+     width: 50%;
+}
+.section-d-p{
+     font-size: 30px;
+     margin-bottom: 15px;
+     width: 80%;
+}
+.section-d-video{
+     width: 50%;
+     height: auto;
+}
