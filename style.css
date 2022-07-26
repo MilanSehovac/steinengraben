@@ -366,3 +366,27 @@ table{
      margin-bottom: 50px;
      font-weight: bold;
 }
+.submit-button:hover{
+     background-color: #7bac7a;
+     color: #fff;
+}
+.section-i-information a{
+     text-decoration: none;
+     color: #3f6c80;
+}
+.section-i-information h3{
+     font-size: 28px;
+     margin: 8px 0 16px;
+}
+.section-i-information p{
+     font-size: 23px;
+     margin-bottom: 15px;
+     line-height: 1.5;
+}
+.section-i-image{
+     padding-top: 60px;
+}
+.section-i-image img{
+     height: 70px;
+     width: 205px;
+}
