@@ -1,26 +1,35 @@
 @font-face {
-     font-family:"serenity";
+     font-family:"serenity-300";
      src:url("af/b3f0a0/00000000000000007735b44c/30/l") format("woff2"),url("af/b3f0a0/00000000000000007735b44c/30/d") format("woff"),url("af/b3f0a0/00000000000000007735b44c/30/a") format("opentype");
      font-display:auto;font-style:normal;font-weight:300;font-stretch:normal;
 }
 
 @font-face {
-     font-family:"serenity";
+     font-family:"serenity-700";
      src:url("af/faecf4/00000000000000007735b458/30/l") format("woff2"),url("af/faecf4/00000000000000007735b458/30/d") format("woff"),url("af/faecf4/00000000000000007735b458/30/a") format("opentype");
      font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
 }
 
 @font-face {
-     font-family:"serenity";
+     font-family:"serenity-500";
      src:url("af/7b12e5/00000000000000007735b464/30/l") format("woff2"),url("af/7b12e5/00000000000000007735b464/30/d") format("woff"),url("af/7b12e5/00000000000000007735b464/30/a") format("opentype");
      font-display:auto;font-style:normal;font-weight:500;font-stretch:normal;
 }
 body{
-     font-family: Serenity;
+     font-family: "serenity-700";
      margin: 0;
      padding: 0;
      color: #000;
      line-height: 1;
+}
+h2{
+     font-family: "serenity-500";
+}
+p{
+     font-family: "serenity-500";
+}
+button{
+     font-family:serenity-500 ;
 }
 header{
      background: url("assets/images/01_Winca_Steinengraben_18_22_Conception.png");
@@ -113,9 +122,10 @@ header{
      font-weight: 200;
      padding-bottom: 20px;
      margin-bottom:0;
+     font-family: serenity-300;
 }
 .section-c-h2 b{
-     font-weight: 700;
+     font-family: serenity-700;
 }
 .section-c-p{
      width: 80%;
@@ -170,7 +180,7 @@ header{
      padding: 80px 0 20px 0;
 }
 .section-e-paragraph{
-     padding: 0 50px 20px 0;
+     padding: 0 82px 20px 0;
 }
 .section-e-p{
      margin-bottom: 15px;
@@ -283,6 +293,7 @@ table{
      text-decoration: none;
      color: #3f6c80;
      font-size: 25px;
+     font-family: serenity-500;
 }
 .section-h-wrapper{
      padding: 10px;
@@ -307,12 +318,11 @@ table{
      padding-bottom: 20px;
 }
 .table-head-item{
-     font-weight: 700;
      padding: 7px 10px 5px;
 }
 .table-item{
      padding: 20px 10px 10px;
-     font-weight: 400;
+     font-family: serenity-300;
 }
 .pdf-icon2-link{
      margin-left: 10px;
@@ -326,12 +336,17 @@ table{
 }
 .section-i-h2{
      font-size: 50px;
+     font-family: serenity-300;
+}
+.section-i-h2 b{
+     font-family: Serenity-700;
 }
 .section-i-title{
      padding-bottom: 20px;
 }
 .section-i-p{
      font-size: 30px;
+     font-family: serenity-500;
 }
 .section-i-paragraph{
      width: 79%;
@@ -343,7 +358,7 @@ table{
      width: 49%;
 }
 .contact-us-form input, .contact-us-form textarea{
-     font-weight: 200;
+     font-family: serenity-300;
      font-size: 27px;
      border-top: 0;
      border-right: 0;
@@ -364,7 +379,7 @@ table{
      border-radius: 0;
      padding: 20px 40px;
      margin-bottom: 50px;
-     font-weight: bold;
+
 }
 .submit-button:hover{
      background-color: #7bac7a;
@@ -382,6 +397,7 @@ table{
      font-size: 23px;
      margin-bottom: 15px;
      line-height: 1.5;
+     font-family: serenity-300;
 }
 .section-i-image{
      padding-top: 60px;
