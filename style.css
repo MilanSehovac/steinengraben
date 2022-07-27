@@ -20,7 +20,7 @@ body{
      margin: 0;
      padding: 0;
      color: #000;
-     line-height: 1;
+     line-height: 1.1;
 }
 h2{
      font-family: "serenity-500";
@@ -163,10 +163,15 @@ header{
      filter: invert(97%) sepia(5%) saturate(178%) hue-rotate(345deg) brightness(92%) contrast(106%);
      transform: translate(-50%, -50%);
 }
+.section-d-yt-video{
+     width: 100%;
+     height: 533px;
+}
 #section-e{
      margin-top: 150px;
      background-color: #3f6c80;
      color: #fff;
+     margin-bottom: -4px;
 }
 .section-e-col1{
      padding: 0 20px 0 80px;
@@ -189,6 +194,9 @@ header{
 .section-e-img{
      margin: 0 0 45px 0;
      padding: 0 45px 45px 0;
+}
+.img img{
+     width: 85%;
 }
 .map{
      height: 1130px;
@@ -247,6 +255,7 @@ header{
 }
 .section-g-p{
      font-size: 30px;
+     line-height: 1.2;
 }
 .section-g-row{
      margin-right: 0;
@@ -328,7 +337,7 @@ table{
      margin-left: 10px;
 }
 #section-i{
-     padding: 125px 0 90px 0;
+     padding-top: 125px;
      color: #000;
 }
 .section-i{
@@ -343,16 +352,24 @@ table{
 }
 .section-i-title{
      padding-bottom: 20px;
+     padding-left: 10px;
 }
 .section-i-p{
      font-size: 30px;
      font-family: serenity-500;
+     line-height: 1.1;
 }
 .section-i-paragraph{
-     width: 79%;
+     width: 80%;
+     padding-left: 10px;
+}
+.contact-form{
+     padding-bottom: 90px;
+     margin-top: 50px;
 }
 .contact-us{
      border: none;
+     padding: 0;
 }
 .contact-us-form input{
      width: 49%;
@@ -378,7 +395,7 @@ table{
      color: #fff;
      border-radius: 0;
      padding: 20px 40px;
-     margin-bottom: 50px;
+     margin-top: 50px;
 
 }
 .submit-button:hover{
@@ -405,4 +422,38 @@ table{
 .section-i-image img{
      height: 70px;
      width: 205px;
+}
+footer{
+     margin-top: 60px;
+     padding: 70px 0 70px 0;
+     background-color: #3f6c80;
+}
+.footer-div{
+     padding: 10px;
+}
+.footer-link a{
+     font-family: serenity-500;
+     color: #fff;
+     text-decoration: none;
+     font-size: 25px;
+     margin-left: 50px;
+}
+.footer-link a:hover{
+     color: #7bac7a;
+}
+.sticky-nav{
+     bottom: 0%;
+     right: 0%;
+}
+.navbar{
+     background-color: #3f6c80;
+     list-style: none;
+     border: 1px solid white;
+     border-right: none;
+     border-bottom: none;
+     margin-bottom: 0;
+     padding-left: 0;
+}
+.sticky-nav-li{
+     padding:5px 5px;
 }
