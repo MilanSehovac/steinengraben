@@ -173,8 +173,8 @@ header{
      color: #fff;
      margin-bottom: -4px;
 }
-.section-e-col1{
-     padding-left:80px;
+.section-e-wrap1{
+     padding-left: 80px;
 }
 .section-e-col2{
      padding-left: 0;
@@ -254,7 +254,7 @@ header{
 }
 .section-g-paragraph, .section-g-paragraph2{
      margin-bottom: 15px;
-     padding: 0 50px 20px 0;
+     padding: 0 52px 20px 0;
 }
 .section-g-p{
      font-size: 30px;
@@ -266,7 +266,8 @@ header{
 .section-g-padding-left{
      padding-left: 50px;
 }
-.section-g-col2{
+
+.section-g-col2, .section-g-col1{
      padding-right: 0;
 }
 .section-g-row2{
@@ -386,6 +387,7 @@ table{
      border-bottom: 1px solid #808990;
      margin-bottom: 50px;
      padding-bottom: 50px;
+     margin-right: 12px;
 }
 .contact-us-form input:focus, .contact-us-form textarea:focus{
      outline: none;
@@ -445,8 +447,8 @@ footer{
      color: #7bac7a;
 }
 .sticky-nav{
-     bottom: 0%;
-     right: 0%;
+     bottom: 0;
+     right: 0;
 }
 .navbar{
      background-color: #3f6c80;
