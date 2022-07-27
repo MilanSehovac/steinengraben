@@ -164,7 +164,7 @@ header{
      transform: translate(-50%, -50%);
 }
 .section-d-yt-video{
-     width: 100%;
+     width: 99%;
      height: 533px;
 }
 #section-e{
@@ -174,7 +174,10 @@ header{
      margin-bottom: -4px;
 }
 .section-e-col1{
-     padding: 0 20px 0 80px;
+     padding-left:80px;
+}
+.section-e-col2{
+     padding-left: 0;
 }
 .section-e-title{
      margin-bottom: 20px;
