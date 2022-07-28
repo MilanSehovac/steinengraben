@@ -320,6 +320,10 @@ table{
 }
 .table1-row1:hover, .table1-row2:hover{
      background-color: #f4f4f4;
+     transition: 500ms ease-in;
+}
+.table1-row, table1-row2{
+     transition: 500ms ease-in;
 }
 .table1-body{
      width: 100%;
@@ -361,7 +365,7 @@ table{
 .section-i-p{
      font-size: 30px;
      font-family: serenity-500;
-     line-height: 1.1;
+     line-height: 36px;
 }
 .section-i-paragraph{
      width: 80%;
@@ -441,7 +445,7 @@ footer{
      color: #fff;
      text-decoration: none;
      font-size: 25px;
-     margin-left: 50px;
+     margin-left: 40px;
 }
 .footer-link a:hover{
      color: #7bac7a;
@@ -449,6 +453,7 @@ footer{
 .sticky-nav{
      bottom: 0;
      right: 0;
+     z-index: 1;
 }
 .navbar{
      background-color: #3f6c80;
@@ -457,8 +462,211 @@ footer{
      border-right: none;
      border-bottom: none;
      margin-bottom: 0;
-     padding-left: 0;
+     padding:0;
 }
 .sticky-nav-li{
-     padding:5px 5px;
+     padding:5px 3px;
+}
+.modal-dialog{
+     margin:-1px 0 -1px 0;
+     position: absolute;
+     right: 0;
+     max-width: 833px;
+     height: 100%;
+}
+.modal-body{
+     padding:40px;
+}
+.modal-body p, .modal-body li, .modal-body a{
+     font-size: 21px;
+     font-family: serenity-300;
+}
+.modal-body a{
+     text-decoration: none;
+     color: #3f6c80;
+}
+.modal-body h2{
+     font-size: 32px;
+}
+.modal-close{
+     background: url("assets/close.png");
+     position: absolute;
+     right: 0;
+     z-index: 1;
+     font-size: 34px;
+     opacity: 1;
+     border-radius: 0;
+}
+.modal-close:focus{
+     box-shadow: none;
+}
+.modal-close:focus-visible{
+     outline: none;
+}
+.modal-close:hover{
+     opacity: 1;
+}
+@media (max-width: 568px) {
+     header{
+     background-position: bottom center;
+     background-size: contain;
+     min-height: 65vh;
+     }
+     .container-large{
+          margin: 0;
+          padding: 26px;
+     }
+     .page-title{
+          font-size: 45px;
+          margin-top: 20px;
+     }
+     .sub-title{
+          font-size: 18px;
+     }
+     .section-a-Title{
+          font-size: 30px;
+     }
+     .section-a-paragraph{
+          font-size: 20px;
+     }
+
+     .section-b-img{
+          display: none;
+     }
+     .carousel1{
+          width: unset;
+          height: unset;
+     }
+     .section-c-h2{
+          font-size:30px;
+     }
+     .section-c-p{
+          font-size: 20px;
+     }
+     .section-d-div1{
+          width: unset;
+     }
+     .section-d-div2{
+          width: unset;
+          padding: 40px 30px 0;
+     }
+     .section-d-p{
+          width: unset;
+     }
+     .section-d-p p{
+          font-size: 20px;
+     }
+     .section-e-h2{
+          font-size: 30px;
+     }
+     .section-e-wrap1{
+          padding: 0 30px;
+     }
+     .section-e-paragraph{
+         padding: 0 20px 20px 0;
+     }
+     .section-e-p{
+          font-size: 20px;
+     }
+     .section-e-img{
+          padding: 0;
+     }
+     .img img{
+          width: unset;
+     }
+     .map{
+          width: 100%;
+          height: 415px;
+     }
+     #blank{
+          padding: 0;
+     }
+     .section-f-main-div{
+          min-height: 53vh;
+     }
+     .carousel2{
+          width: unset;
+          height: unset;
+     }
+     .navbar{
+          flex-direction: row!important;
+          width: 101vw;
+          justify-content: center;
+     }
+     .contact-us-form input{
+          width: 100%;
+     }
+     .img-div{
+          top: 43vh;
+     }
+     .section-f-img{
+          width: 100%;
+     }
+     .section-g-h2{
+          font-size: 30px;
+     }
+     .section-g-p{
+          font-size: 18px;
+     }
+     .section-g-padding-left{
+          padding: 0 15px;
+     }
+     .section-g-paragraph, .section-g-paragraph2 {
+          margin-bottom: 15px;
+          padding: 0 52px 20px 0;
+     }
+     .section-g-row2{
+          padding: 0 15px!important;
+     }
+     .section-g-title2{
+          padding-top: 25px;
+     }
+     #section-h{
+          padding: 0;
+     }
+     .section-h-h2{
+          font-size: 30px;
+     }
+     #section-i{
+          padding: 0;
+     }
+     .section-i-title{
+          padding: 0;
+     }
+     .section-i-h2{
+          font-size: 30px;
+     }
+     .section-i-p{
+          font-size: 18px;
+          line-height: 21.6px;
+     }
+     .section-i-paragraph{
+          width: 100%;
+          padding: 0;
+     }
+     .contact-us-form input{
+          font-size: 18px;
+     }
+     .information1 p, .information1 a, .information2 p, .information2 a{
+          font-size: 18px;
+     }
+     .tend-image{
+          justify-content: center!important;
+     }
+     .footer-link{
+          display: flex;
+          justify-content: end;
+          text-align: end;
+          flex-direction: column;
+     }
+     .footer-link a{
+          padding:15px 0;
+     }
+     .sticky-nav-li{
+          padding: 5px 15px;
+     }
+     .carousel-control-next{
+          right: 0;
+     }
+
 }
