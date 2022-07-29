@@ -516,6 +516,7 @@ footer{
           margin: 0;
           padding: 26px;
      }
+
      .page-title{
           font-size: 45px;
           margin-top: 20px;
@@ -624,6 +625,23 @@ footer{
      #section-h{
           padding: 0;
      }
+     .expander{
+          opacity: .6;
+          display: inline-block;
+          line-height: 0;
+          content: "";
+          height: 15px;
+          width: 14px;
+          background-image: url("assets/plus-icons-opacity.png");
+          background-repeat: no-repeat;
+          margin-right: 3px;
+          vertical-align: top;
+          border: 1px solid #e0e0e0;
+          border-radius: 5px;
+     }
+     .table-status-circle{
+          display: inline-block;
+     }
      .section-h-h2{
           font-size: 30px;
      }
@@ -669,4 +687,9 @@ footer{
           right: 0;
      }
 
+}
+@media (min-width:1025px) {
+     .d-table-cell{
+          display: table-cell!important;
+     }
 }
