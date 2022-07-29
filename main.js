@@ -7,4 +7,7 @@ function video(){
 function expand(){
     document.querySelector('.new-table1-row1').classList.toggle("d-none")
 }
+function expand2(){
+    document.querySelector('.new-table1-row2').classList.toggle("d-none")
+}
 window.addEventListener("hashchange", () => window.history.pushState({}, "", '/steinengraben/index.html'), {});
