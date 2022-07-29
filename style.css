@@ -639,6 +639,22 @@ footer{
           border: 1px solid #e0e0e0;
           border-radius: 5px;
      }
+     .new-table1-row{
+          border-bottom: 1px solid #000;
+     }
+     .new-table1-row ul{
+          list-style: none;
+          padding-left: 0;
+     }
+     .new-table1-row ul li{
+          display: flex;
+     }
+     .new-table1-row  ul li .table-item{
+          padding-top:9px;
+     }
+     .new-table1-row-img a img{
+          width: 38px;
+     }
      .table-status-circle{
           display: inline-block;
      }
