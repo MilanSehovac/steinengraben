@@ -980,7 +980,7 @@ footer {
     .section-a-Title{
         width: 99%;
     }
-    .section-a-paragraph, .section-c-p, .section-e-p{
+    .section-a-paragraph, .section-c-p, .section-e-p, .section-g-p,.section-i-p, .section-d-p{
         font-size: 25px;
         width: 100%;
     }
@@ -1000,7 +1000,7 @@ footer {
     .section-c-h2{
         width: 90%;
     }
-    .section-d-div2, .section-d-div1, .section-d-p, .section-i-p, .section-g-p{
+    .section-d-div2, .section-d-div1 {
         width: 100%;
     }
     .section-d-div2{
@@ -1078,6 +1078,9 @@ footer {
     }
     .information2{
         margin-top: 43px;
+    }
+    .footer-div{
+        padding: 10px 0;
     }
     .navbar{
         flex-direction: row !important;
