@@ -327,6 +327,7 @@ header {
 
 .section-g-row {
     margin-right: 0;
+    margin-left: 0;
 }
 
 .section-g-padding-left {
@@ -335,6 +336,7 @@ header {
 
 .section-g-col2, .section-g-col1 {
     padding-right: 0;
+    padding-left: 0;
 }
 
 .section-g-row2 {
