@@ -961,6 +961,9 @@ footer {
         background-size: 85% auto;
         min-height: 60vh;
     }
+    .section-container-65{
+        padding: 0 65px;
+    }
     .section-container-45{
         padding: 0 45px;
     }
@@ -974,12 +977,15 @@ footer {
     .sub-title{
         font-size: 23px;
     }
-    .section-a-paragraph{
+    .section-a-Title{
+        width: 99%;
+    }
+    .section-a-paragraph, .section-c-p, .section-e-p{
         font-size: 25px;
         width: 100%;
     }
     .carousel1{
-        width: 50vw;
+        width: 61vw;
         height: 37vh;
     }
     .section-b-img img{
@@ -989,10 +995,57 @@ footer {
         right: 0;
     }
     #section-c{
-        padding-top: 70px;
+        padding: 70px 44px 50px;
     }
     .section-c-h2{
         width: 90%;
+    }
+    .section-d-div2, .section-d-div1, .section-d-p, .section-i-p, .section-g-p{
+        width: 100%;
+    }
+    .section-d-div2{
+        padding: 40px 30px 0;
+    }
+    .section-d-p p{
+        font-size: 25px;
+    }
+    .section-e-wrap1{
+        padding-left: 30px;
+    }
+    .section-e-col2, .map{
+        height: 415px;
+    }
+    .img img{
+        width: 100%;
+    }
+    .section-f-img1{
+        height: 53vh;
+    }
+    .section-f-img2{
+        width: 42%;
+    }
+    .section-f-div{
+        top: 30vh;
+    }
+    #blank{
+        padding:70px 0 0;
+    }
+    .section-g-padding-left{
+        padding-left: 30px;
+    }
+    .section-g-row2{
+        padding-left: 50px;
+    }
+    #section-h{
+        padding-top: 70px;
+        padding-bottom: 0;
+    }
+    .section-h-wrapper{
+        padding-left:40px ;
+        padding-right: 20px;
+    }
+    .table-status-circle{
+        display: inline-block;
     }
     .expander {
         opacity: .6;
@@ -1007,6 +1060,21 @@ footer {
         vertical-align: top;
         border: 1px solid #e0e0e0;
         border-radius: 5px;
+    }
+    .setcion-h-download{
+        padding: 25px;
+    }
+    #section-i{
+        padding-top:70px;
+    }
+    .section-i-h2{
+        font-size: 45px;
+    }
+    .section-i-paragraph{
+        width: 100%;
+    }
+    .contact-us-form input, .contact-us-form textarea{
+        margin-right: 11px;
     }
     .information2{
         margin-top: 43px;
