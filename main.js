@@ -1,11 +1,12 @@
+y = 0
+x = 0
 
 function video(){
     document.querySelector('.section-d-vid-placeholder').classList.add("d-none")
     document.querySelector('.play-icon').classList.add("d-none")
     document.querySelector('.section-d-yt-video').classList.remove("d-none")
 }
-y = 0
-x = 0
+
 function expand(){
     document.querySelector('.new-table1-row1').classList.toggle("d-none")
     document.querySelector('.expander1').style.backgroundImage="url(assets/minus-icons-opacity.png)"
