@@ -1186,3 +1186,14 @@ footer {
         display: table-cell !important;
     }
 }
+@media (min-width: 1025px) and (max-width: 1366px){
+    .map{
+        height: 900px;
+    }
+    .section-e-wrap1{
+        padding-left: 30px;
+    }
+    .img img{
+        width: 100%;
+    }
+}
