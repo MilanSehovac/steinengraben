@@ -857,6 +857,9 @@ footer {
     .new-table1-row {
         border-bottom: 1px solid #000;
     }
+    .new-table1-row{
+        border-bottom: 1px solid #000;
+    }
 
     .new-table1-row ul {
         list-style: none;
@@ -1143,6 +1146,9 @@ footer {
     }
     .new-table1-row-img a img {
         width: 38px;
+    }
+    .new-table1-row{
+        border-bottom: 1px solid #000;
     }
     .setcion-h-download {
         padding: 25px;
